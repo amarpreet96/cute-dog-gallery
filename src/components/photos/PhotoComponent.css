@@ -1,19 +1,20 @@
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 1rem;
 }
 
 .pic {
-    max-width: 100%;
-    height: auto;
-    border: 4px solid black;
-    border-radius: 4px;
-    margin: 25px 50px 75px 100px;
+    width: 100%;
+    height: 310px;
 }
 
-.pic:hover {
-    box-shadow: 0 0 4px 4px rgba(7, 183, 242, 0.5);
+.pics:hover {
+    box-shadow: 0 0 0.5rem 0.5rem rgba(7, 183, 242, 0.5);
+    cursor: pointer;
+    transition: all 0.5s;
+    transform: scale(1.05);
   }
 
 .action {
@@ -29,4 +30,21 @@
     border-radius:5px;
 }
 
+.pics {
+    width: 400px;
+    border-radius: 4px;
+    margin-bottom: 5rem;
+    padding: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem black;
+}
 
+@media screen and (min-width: 768px) {
+    .pics {
+        width: 500px;
+        height: 450px;
+    }
+    .pic {
+        width: 500px;
+        height: 450px;
+    }
+}
