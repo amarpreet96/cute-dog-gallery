@@ -1,0 +1,32 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pic {
+    width: 700px;
+    height: 500px;
+    border: 4px solid black;
+    border-radius: 4px;
+    margin: 25px 50px 75px 100px;
+}
+
+.pic:hover {
+    box-shadow: 0 0 4px 4px rgba(7, 183, 242, 0.5);
+  }
+
+.action {
+    display: flex;
+    margin: 10px auto 0 auto;
+    width: auto;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px 32px 25px 32px;
+    background-color:#15a3f6;
+    color: #fff;
+    border-radius:5px;
+}
+
+
