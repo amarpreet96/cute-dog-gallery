@@ -5,6 +5,10 @@ import PhotoComponent from './components/photos/PhotoComponent';
 import FavoritesComponent from "./components/photos/FavoritesComponent";
 import "./App.css";
 
+/**
+ * Main app component 
+ * description - parent component for our PhotoComponent and FavoriteComponent maintaining state of our app
+ */
 function App(){
   const [dogImages,setDogImages] = useState([]);
   const [favorites,setFavorites] = useState([]);

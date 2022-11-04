@@ -1,6 +1,9 @@
 import React from 'react';
 import './PhotoComponent.css';
 
+/**
+ * PhotoComponent displaying our dog images coming as a prop from App component
+ */
 const PhotoComponent = ({dogImages,addToFavorites,refresh})=>{
     return (
         <>
